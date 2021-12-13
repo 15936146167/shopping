@@ -1,0 +1,13 @@
+{
+    "id": "dl-product-class",
+    "name": "商品分类-左右联动型",
+    "version": "1.0.0",
+    "description": "用于商品分类左右两边联动",
+    "keywords": [
+        "分类，商品分类，商城"
+    ],
+    "dependencies": {
+        "uni-read-pages": "^1.0.5",
+        "uni-simple-router": "^2.0.7"
+    }
+}

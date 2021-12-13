@@ -1,0 +1,159 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		//首页
+		{
+			"path": "pages/tabbar/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		//分类
+		{
+			"path": "pages/tabbar/fenlei/fenlei",
+			"style": {}
+		},
+		// 购物车
+		{
+			"path": "pages/tabbar/shopping/shopping",
+			"style": {}
+		},
+		// 我的
+		{
+			"path": "pages/tabbar/me/me",
+			"style": {}
+		},
+		// 商品详情页
+		{
+			"path": "pages/tabbar/details/detail",
+			"style": {}
+		},
+		// 全部订单页
+		{
+			"path": "pages/tabbar/me/orderAll/orderAll",
+			"style": {}
+		},
+		// 修改资料页
+		{
+			"path": "pages/tabbar/me/edit/edit",
+			"style": {}
+		},
+		// 设置页
+		{
+			"path": "pages/tabbar/me/set/set",
+			"style": {}
+		},
+		// 收货地址页
+		{
+			"path": "pages/tabbar/me/address/address",
+			"style": {}
+		},
+		// 商品列表页
+		{
+			"path": "pages/tabbar/goods/goodlist",
+			"style": {}
+		},
+		// 登录页
+		{
+			"path": "pages/tabbar/me/login/login",
+			"style": {}
+		},
+		// 注册页
+		{
+			"path": "pages/tabbar/me/login/reg",
+			"style": {}
+		},
+		// 忘记密码页
+		{
+			"path": "pages/tabbar/me/login/forget",
+			"style": {}
+		},
+		// 修改密码页
+		{
+			"path": "pages/tabbar/me/login/updatePwd",
+			"style": {}
+		},
+		// 验证码登录页
+		{
+			"path": "pages/tabbar/me/login/smsLogin",
+			"style": {}
+		},
+		// 商品评论页
+		{
+			"path": "pages/tabbar/details/comment",
+			"style": {}
+		},
+		// 搜索页
+		{
+			"path": "pages/tabbar/index/search",
+			"style": {}
+		},
+		// 收藏页
+		{
+			"path": "pages/tabbar/me/fav/fav",
+			"style": {}
+		},
+		// 关于我们页
+		{
+			"path": "pages/tabbar/about/about",
+			"style": {}
+		},
+		// 设置收货地址页
+		{
+			"path": "pages/tabbar/me/address/setAddr",
+			"style": {}
+		},
+		// 确认订单页
+		{
+			"path": "pages/tabbar/order/order",
+			"style": {}
+		},
+		// 联系我们页
+		{
+			"path": "pages/tabbar/me/connect/connect",
+			"style": {}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		//取消全局状态栏
+		"navigationStyle":"custom"
+	},
+	"tabBar": {
+		"borderStyle": "white",
+		"backgroundColor": "#fff",
+		"color": "#8F8F94",
+		"selectedColor": "#2f54eb",
+		"list": [{     //list是tabBar的子级标签，最多设置5个
+				"pagePath": "pages/tabbar/index/index",//页面路径
+				"iconPath": "static/img/tabbar/home.png",//默认图标
+				"selectedIconPath": "static/img/tabbar/homeactive.png",//选中时的图标
+				"text": "首页"//窗口文字
+			},
+			{
+				"pagePath": "pages/tabbar/fenlei/fenlei",
+				"iconPath": "static/img/tabbar/fenlei.png",
+				"selectedIconPath": "static/img/tabbar/fenleiactive.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/tabbar/shopping/shopping",
+				"iconPath": "static/img/tabbar/shopping.png",
+				"selectedIconPath": "static/img/tabbar/shoppingactive.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/tabbar/me/me",
+				"iconPath": "static/img/tabbar/me.png",
+				"selectedIconPath": "static/img/tabbar/meactive.png",
+				"text": "我"
+			}
+		]
+	},
+	"buttons":[{
+		"redDot":false
+	}]
+}
